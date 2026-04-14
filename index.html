@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Natália Vicente — Nail Designer</title>
+  <meta name="description" content="Nail design autoral por Natália Vicente. Atelier privado no Porto — entre o clássico e o alternativo." />
+  <meta name="author" content="Natália Vicente" />
+  <meta name="theme-color" content="#0A0A0A" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/favicon.png" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Natália Vicente — Nail Designer" />
+  <meta property="og:description" content="Unhas que refletem a sua força interior. Nail design autoral no Porto." />
+  <meta property="og:image"       content="images/hero-photo.jpg" />
+  <meta property="og:locale"      content="pt_PT" />
+  <meta name="twitter:card"       content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,800;1,600;1,800&family=Inter:wght@300;400;500;600&display=swap" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── top ticker ──────────────────────────────────────── -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Agendamentos abertos para Maio</span>
+      <span>Unhas que refletem a sua força interior</span>
+      <span>Nail designer • Porto</span>
+      <span>Desconto de boas-vindas −15%</span>
+      <span>Agendamentos abertos para Maio</span>
+      <span>Unhas que refletem a sua força interior</span>
+      <span>Nail designer • Porto</span>
+      <span>Desconto de boas-vindas −15%</span>
+    </div>
+  </div>
+
+  <!-- ─── header ──────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="brand" aria-label="Natália Vicente — início">
+        <img src="images/logo-mark.png" alt="" width="64" height="48" />
+        <span class="brand__txt">
+          Natália Vicente
+          <small>Nail Designer</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#love">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#contato" class="cta">Agendar <span class="star" aria-hidden="true"></span></a>
+
+      <button type="button"
+              class="nav-toggle"
+              data-nav-toggle
+              aria-label="Abrir menu"
+              aria-expanded="false"
+              aria-controls="nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- mobile drawer -->
+  <div class="nav-backdrop" data-nav-backdrop aria-hidden="true"></div>
+  <nav id="nav-mobile" class="nav-mobile" data-nav-drawer aria-label="Navegação móvel">
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#love">Depoimentos</a>
+    <a href="#contato">Contato</a>
+    <a href="#contato" class="cta">Agendar <span class="star" aria-hidden="true"></span></a>
+  </nav>
+
+  <main id="main">
+
+    <!-- ─── hero ──────────────────────────────────────────── -->
+    <section class="hero grain" aria-label="Início">
+      <span class="flourish tl" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+      </span>
+      <span class="flourish tr" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+      </span>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <span class="eyebrow">Estúdio • Nail Design Autoral</span>
+          <h1>Unhas que <em>refletem</em> a sua força interior.</h1>
+          <p class="lede">
+            Nail design autoral para mulheres que não pedem licença.
+            Entre o clássico e o alternativo, cada par de mãos vira uma peça única — pensada, desenhada e esculpida à medida.
+          </p>
+          <div class="hero__cta">
+            <a href="#contato" class="cta">Reservar horário</a>
+            <a href="#galeria" class="cta cta--ghost">Ver portfólio</a>
+          </div>
+          <dl class="hero__meta">
+            <div><dt>Desde</dt><b>2019</b></div>
+            <div><dt>Atelier</dt><b>Porto • PT</b></div>
+            <div><dt>Estilo</dt><b>Autoral · Alt</b></div>
+          </dl>
+        </div>
+
+        <figure class="hero__photo">
+          <img src="images/hero-photo.jpg" alt="Retrato de Natália Vicente" loading="eager" fetchpriority="high" />
+          <figcaption class="hero__tag">
+            <span>Natália Vicente</span>
+            <span><strong>Nº 001</strong> — retrato</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ─── marquee ───────────────────────────────────────── -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>
+          Garotas rebeldes usam unhas afiadas
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+          Nail designer
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+          Natália Vicente
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+        </span>
+        <span>
+          Garotas rebeldes usam unhas afiadas
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+          Nail designer
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+          Natália Vicente
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+        </span>
+      </div>
+    </div>
+
+    <!-- ─── about ─────────────────────────────────────────── -->
+    <section id="sobre" class="about">
+      <div class="wrap about__grid">
+        <figure class="about__img">
+          <img src="images/about-photo.jpg" alt="Natália no atelier" loading="lazy" />
+          <figcaption class="about__badge">Atelier <b>Natália Vicente</b> · Desde 2019</figcaption>
+        </figure>
+
+        <div class="about__text">
+          <span class="section-label">Sobre</span>
+          <h2 class="section-title">Artista. Perfeccionista. <em>Feminina</em> e rebelde.</h2>
+          <p>
+            A Natália é nail designer há mais de cinco anos e construiu um atelier que recusa a estética descartável.
+            Cada atendimento é pensado como uma sessão privada — música, café, tempo e precisão cirúrgica.
+          </p>
+          <p>
+            Inspirada pelos estúdios de tatuagem de Londres, pela herança do clássico salão de beleza
+            e pelo que há de mais editorial no nail art contemporâneo, assina peças que equilibram
+            técnica, conceito e personalidade.
+          </p>
+          <p class="signature">Natália Vicente <span>—</span> Nail Designer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── services ──────────────────────────────────────── -->
+    <section id="servicos" class="services">
+      <div class="wrap">
+        <span class="section-label">Carta de Serviços</span>
+        <h2 class="section-title">O que se faz <em>aqui dentro</em>.</h2>
+
+        <div class="services__grid">
+          <article class="svc">
+            <p class="svc__num">01 / Signature</p>
+            <h3 class="svc__name">Alongamento em Fibra de Vidro</h3>
+            <p class="svc__desc">Estrutura fina, resistente e discreta. Para quem quer comprimento sem volume — acabamento natural ou editorial.</p>
+            <p class="svc__price"><span>A partir de</span><b>€45</b></p>
+          </article>
+          <article class="svc">
+            <p class="svc__num">02 / Autoral</p>
+            <h3 class="svc__name">Nail Art Autoral</h3>
+            <p class="svc__desc">Projetos desenhados à mão a partir de briefing. Ilustração, lettering, flash tattoo e pedrarias aplicadas uma a uma.</p>
+            <p class="svc__price"><span>A partir de</span><b>€65</b></p>
+          </article>
+          <article class="svc">
+            <p class="svc__num">03 / Clássico</p>
+            <h3 class="svc__name">Manicure Clássica</h3>
+            <p class="svc__desc">Preparo profundo, cutículas, esmaltação em gel de longa duração. O básico, feito com rigor de atelier.</p>
+            <p class="svc__price"><span>A partir de</span><b>€28</b></p>
+          </article>
+          <article class="svc">
+            <p class="svc__num">04 / Cuidado</p>
+            <h3 class="svc__name">Pedicure Spa</h3>
+            <p class="svc__desc">Esfoliação, hidratação intensiva e esmaltação em gel. Ritual longo, toalha quente, foco total.</p>
+            <p class="svc__price"><span>A partir de</span><b>€38</b></p>
+          </article>
+          <article class="svc">
+            <p class="svc__num">05 / Escultura</p>
+            <h3 class="svc__name">Encapsulado 3D</h3>
+            <p class="svc__desc">Flores, correntes, cromados e relevos selados sob camadas de gel — acabamento espelhado e duração de sessão.</p>
+            <p class="svc__price"><span>A partir de</span><b>€75</b></p>
+          </article>
+          <article class="svc">
+            <p class="svc__num">06 / Aftercare</p>
+            <h3 class="svc__name">Manutenção &amp; Remoção</h3>
+            <p class="svc__desc">Manutenção a cada 3–4 semanas. Remoção feita com banho próprio — sem agressão à lâmina natural.</p>
+            <p class="svc__price"><span>A partir de</span><b>€25</b></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── manifesto ─────────────────────────────────────── -->
+    <section class="manifesto grain" aria-label="Manifesto">
+      <div class="wrap">
+        <p class="manifesto__label">Manifesto</p>
+        <h2 class="manifesto__title">
+          Garotas rebeldes <em>usam unhas</em> afiadas.
+        </h2>
+        <p class="manifesto__sub">
+          <b>01</b> Rigor técnico
+          <b>02</b> Desenho autoral
+          <b>03</b> Atendimento privado
+        </p>
+      </div>
+    </section>
+
+    <!-- ─── gallery ───────────────────────────────────────── -->
+    <section id="galeria" class="gallery">
+      <div class="wrap" style="padding-bottom: 40px;">
+        <span class="section-label">Portfólio</span>
+        <h2 class="section-title">Trabalho <em>recente</em>.</h2>
+
+        <div class="gallery__grid">
+          <a class="tile t1" href="#"><span class="tile__label"><span class="tile__name">Ruby Claws</span><span class="tile__num">01</span></span></a>
+          <a class="tile t2" href="#"><span class="tile__label"><span class="tile__name">Noir Velvet</span><span class="tile__num">02</span></span></a>
+          <a class="tile t3" href="#"><span class="tile__label"><span class="tile__name">Ember</span><span class="tile__num">03</span></span></a>
+          <a class="tile t4" href="#"><span class="tile__label"><span class="tile__name">Split Flash</span><span class="tile__num">04</span></span></a>
+          <a class="tile t5" href="#"><span class="tile__label"><span class="tile__name">Halo</span><span class="tile__num">05</span></span></a>
+          <a class="tile t6" href="#"><span class="tile__label"><span class="tile__name">Vortex</span><span class="tile__num">06</span></span></a>
+          <a class="tile t7" href="#"><span class="tile__label"><span class="tile__name">Drip Crimson</span><span class="tile__num">07</span></span></a>
+          <a class="tile t8" href="#"><span class="tile__label"><span class="tile__name">Wildcard</span><span class="tile__num">08</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── testimonials ──────────────────────────────────── -->
+    <section id="love" class="love">
+      <div class="wrap">
+        <span class="section-label">Love letters</span>
+        <h2 class="section-title">Quem já <em>passou por aqui</em>.</h2>
+
+        <div class="love__grid">
+          <figure class="quote">
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote><p>Saí do atelier com unhas que combinavam mais comigo do que qualquer tatuagem que já fiz. É arte de verdade.</p></blockquote>
+            <figcaption class="quote__who"><b>Mariana L.</b>Cliente desde 2022</figcaption>
+          </figure>
+          <figure class="quote">
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote><p>A Natália tem um olhar raro — mistura clássico, punk e elegância sem pesar a mão. Duração impecável.</p></blockquote>
+            <figcaption class="quote__who"><b>Inês P.</b>Cliente desde 2023</figcaption>
+          </figure>
+          <figure class="quote">
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote><p>Cada atendimento é uma experiência, não um serviço. O espaço, a música, o cuidado com o detalhe — tudo.</p></blockquote>
+            <figcaption class="quote__who"><b>Carla M.</b>Cliente desde 2021</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── booking ───────────────────────────────────────── -->
+    <section id="contato" class="booking">
+      <div class="wrap booking__grid">
+        <div>
+          <span class="section-label">Agendamento</span>
+          <h2 class="booking__title">Reserva a tua <em>sessão</em>.</h2>
+          <p class="booking__lede">
+            As vagas abrem mensalmente e esgotam rápido. Envia uma mensagem com o serviço pretendido
+            e, se houver, referências — respondo em até 24h.
+          </p>
+          <dl class="booking__info">
+            <div>
+              <dt>Atelier</dt>
+              <dd>Rua das Flores, 000<br />Porto · Portugal</dd>
+            </div>
+            <div>
+              <dt>Contato</dt>
+              <dd>+351 900 000 000<br />ola@natalia-vicente.pt</dd>
+            </div>
+            <div>
+              <dt>Instagram</dt>
+              <dd>@nataliavicente.nails</dd>
+            </div>
+            <div>
+              <dt>Pagamento</dt>
+              <dd>MB Way · Cartão · Transferência</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="booking__card">
+          <h3>Marca o teu horário</h3>
+          <p>Envia uma mensagem direta via WhatsApp ou Instagram. Resposta em até 24 horas.</p>
+          <a href="#" class="cta">WhatsApp <span class="star" aria-hidden="true"></span></a>
+          <dl class="hrs">
+            <dt>Ter — Sex</dt><dd><b>10h — 20h</b></dd>
+            <dt>Sábado</dt><dd><b>10h — 16h</b></dd>
+            <dt>Domingo</dt><dd><b>Fechado</b></dd>
+            <dt>Segunda</dt><dd><b>Sob marcação</b></dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── footer ────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="images/logo.png" alt="Natália Vicente — Nail Designer" />
+        <p>Nail designer · atelier privado no Porto. Unhas autorais, feitas para quem quer ser vista.</p>
+      </div>
+      <div>
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#love">Depoimentos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>+351 900 000 000</li>
+          <li>ola@natalia-vicente.pt</li>
+          <li>Rua das Flores, Porto</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Natália Vicente — Nail Designer</span>
+      <span>Made with <span class="star" aria-hidden="true"></span> no Porto</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
