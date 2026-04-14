@@ -4,8 +4,8 @@
 
 # Natália Vicente — Nail Designer
 
-**Website institucional** — mockup estático, responsivo, sem dependências de build.
-Estética: clássico salão de beleza × estúdio de tatuagem de Londres.
+**Website institucional** — Website estático, responsivo, sem dependências de build.
+Estética: clássico salão de beleza com identidade visual alternativa.
 
 </div>
 
@@ -124,5 +124,5 @@ Ver [LICENSE](LICENSE).
 ---
 
 <div align="center">
-Feito com cuidado. Porto · 2026.
+Feito por Victor Prospero. Porto · 2026.
 </div>
