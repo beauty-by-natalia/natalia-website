@@ -46,8 +46,10 @@ jobs:
 #          output_location: "." # Built app content directory - optional
           output_location: "/"       # não há build, usa a própria pasta
           github_id_token: ${{ steps.idtoken.outputs.result }}
-          app_build_command: ""      # impede o Azure de tentar compilar
+#          app_build_command: ""      # impede o Azure de tentar compilar
 #          ###### End of Repository/Build Configurations ######
+          skip_app_build: true
+          skip_api_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
